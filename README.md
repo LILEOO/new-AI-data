@@ -3,7 +3,6 @@
 
 > Ask your business data questions in plain language. Get charts, answers, and explanations — safely.
 
-[中文版 (Chinese)](README.zh-CN.md)
 
 **AI Data Agent** is a private-deployable, conversational AI data-analysis assistant. It lets non-technical teams query, analyze, and visualize their own enterprise databases through natural language — without writing SQL, and without giving a model free rein over the database.
 
