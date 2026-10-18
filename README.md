@@ -179,3 +179,15 @@ npm run build
 - One chart per reply, from the most recent successful query. Large or imprecise numeric values may fall back to a lossless table.
 - Model responses and latency can vary; a successful SQL query does not guarantee the provider's final response will succeed.
 - This public distribution omits internal tests, evaluation tooling and customer-specific import scripts. Source configuration may still contain optional development/test script entries; those internal suites are not shipped here.
+
+## Roadmap and contributing
+
+Planned work includes reusable domain Skills, additional datasource adapters, enterprise identity and tenant integration, richer auditing, and container/desktop packaging. These are roadmap items, not capabilities of the current deployment snapshot.
+
+Issues and pull requests are welcome, particularly for datasource adapters, domain semantics and query-safety improvements. Contribution guidelines will be added by the maintainers; this distribution does not include a separate contributing guide.
+
+## License and project background
+
+As stated in the upstream project introduction, the license is to be determined by the maintainers before official release, including review of third-party dependencies. No project license grant is asserted by this snapshot.
+
+The upstream project introduction credits **Weino Technology (微诺科技)** and describes its origin in commerce, property and membership systems. This README retains that attribution while documenting the behavior implemented in this source distribution.
