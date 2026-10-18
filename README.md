@@ -2,8 +2,6 @@
 
 A Vue 3 + FastAPI application for asking business questions about an explicitly authorized MySQL datasource. The backend uses an OpenAI-compatible model with tool calling, validates candidate SQL, executes read-only queries, and generates charts from actual query results.
 
-The interface defaults to **English** and includes an **English / 中文** switch. Model answers follow the question language; changing the interface language does not translate existing answers or trigger another model request.
-
 ## Features and scope
 
 - Natural-language questions and follow-up conversations.
